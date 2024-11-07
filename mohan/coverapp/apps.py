@@ -1,6 +1,6 @@
 from django.apps import AppConfig
 
 
-class WebbookConfig(AppConfig):
+class CoverappConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'webbook'
+    name = 'coverapp'

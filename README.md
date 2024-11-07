@@ -1,5 +1,5 @@
-# Ex.06 Book Front Cover Page Design
-## Date:15/04/24
+# Ex.05 Book Front Cover Page Design
+## Date:07/11/24
 
 ## AIM:
 To design a book front cover page using HTML and CSS.
@@ -136,7 +136,7 @@ Publish the website in the LocalHost.
             </div>
 
             <div class="mypic">
-                <img src="MOHAN_PIC.jpeg" width="100" height="120" >
+                <img src="MOHAN PASSPORT SIZE_11zon.jpeg" width="100" height="120" >
             </div>
             <div class="id">
                 <hr style="color:rgb(12, 132, 217)">
@@ -156,11 +156,12 @@ Publish the website in the LocalHost.
 
 </html>
 
+
 ```
 
 ## OUTPUT:
 
-![alt text](<Screenshot 2024-04-15 202430.png>)
+![alt text](<Screenshot 2024-11-07 225148.png>)
 
 ## RESULT:
 The program for designing book front cover page using HTML and CSS is completed successfully.
