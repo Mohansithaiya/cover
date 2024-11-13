@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accessible Photo Gallery</title>
+    <link rel="stylesheet" href="mohan.css">
+</head>
+<body onload="addTabIndex()">
+    <center>
+    <h1>My Accessible Photo Gallery</h1>
+</center>
+    <div id="image" class="image-container" tabindex="0">
+        Hover over an image below to display here.
+    </div>
+    <div class="gallery">
+        <figure tabindex="0">
+            <img src="autumn-foliage-in-garden-m.jpg" alt="Nature World 1" onmouseover="upDate(this)" onmouseout="undo()" onfocus="upDate(this)" onblur="undo()">
+            <figcaption>Image 1</figcaption>
+        </figure>
+        <figure tabindex="0">
+            <img src="beautiful-waterfall-artwork-photo-m.jpg" alt="Nature World 2" onmouseover="upDate(this)" onmouseout="undo()" onfocus="upDate(this)" onblur="undo()">
+            <figcaption>Image 2</figcaption>
+        </figure>
+        <figure tabindex="0">
+            <img src="high-resolution-wildlife-photo-m.jpg" alt="Nature World 3" onmouseover="upDate(this)" onmouseout="undo()" onfocus="upDate(this)" onblur="undo()">
+            <figcaption>Image 3</figcaption>
+        </figure>
+        <figure tabindex="0">
+            <img src="istockphoto-1403500817-612x612.jpg" alt="Nature World 4" onmouseover="upDate(this)" onmouseout="undo()" onfocus="upDate(this)" onblur="undo()">
+            <figcaption>Image 4</figcaption>
+        </figure>
+        <figure tabindex="0">
+            <img src="tree_meadow_nature_220408.jpg" alt="Nature World 5" onmouseover="upDate(this)" onmouseout="undo()" onfocus="upDate(this)" onblur="undo()">
+            <figcaption>Image 5</figcaption>
+        </figure>
+        <figure tabindex="0">
+            <img src="wild_nature_picture_ladybug_perching_branch_closeup_6930235.jpg" alt="Nature World 6" onmouseover="upDate(this)" onmouseout="undo()" onfocus="upDate(this)" onblur="undo()">
+            <figcaption>Image 6</figcaption>
+        </figure>
+    </div>
+    <script src="mohan.js"></script>
+</body>
+</html>
